@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald’s franchise virtual food ordering system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1>McDonald’s franchise virtual food ordering system</h1>
+    <div id="orderidContainer">
+        <div>
+        </div>
+        <div class="orderidcont">
+            <h2 id="orderID">Order-ID:- </h2>
+        </div>
+    </div>
+
+    <div id="incont">
+        <div class="show">
+
+            <div id="rest_items">
+                <h3> &#128523;<span>List of items</span> &#128523;</h3>
+                <label><input id="food" type="checkbox" value="Pizza">Pizza</label><br>
+                <label><input id="food" type="checkbox" value="Burger">Burger</label><br>
+                <label><input id="food" type="checkbox" value="ColdDrink">Cold Dring</label><br>
+                <label><input id="food" type="checkbox" value="Noodels">Noodels</label><br>
+                <label><input id="food" type="checkbox" value="Dosa">Dosa (Butter)</label><br>
+                <label><input id="food" type="checkbox" value="Sambhar">Sambhar</label><br>
+                <label><input id="food" type="checkbox" value="Tandoori">Tandoori Roti</label><br>
+                <label><input id="food" type="checkbox" value="Cheese">Cheese</label><br>
+                <button id="orderfoodbutton" onclick="orderfood()">Order Food</button>
+            </div>
+
+        </div>
+
+        <div id="container">
+            <img id="showFoodImage" src="https://th.bing.com/th/id/OIP.CXgZxKxOAaT7Lk377KsVqgHaEo?rs=1&pid=ImgDetMain"
+                alt="">
+            <div id="textprocessing">
+                <h2 id="processing">Processing your order......</h2>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<script src="script.js"></script>
